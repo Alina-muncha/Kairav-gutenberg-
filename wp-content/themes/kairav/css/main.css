@@ -1,0 +1,336 @@
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/banner2.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  h1 {
+    text-align: center;
+    color: #33368E !important;
+  }
+  
+  /* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
+  
+  .accordion {
+   
+    margin: 20px auto;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+  }
+
+  .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+  }
+  
+  /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+  
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #33368E;
+    cursor: pointer;
+  }
+  
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 20px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* Adds a horizontal line between the contents */
+  
+  .accordion hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+  }
+
+  .fund-heading {
+    margin-top: 15x; 
+    text-align: left;
+    
+  }
+
+  .fund-heading a{
+    color: #33368E !important;
+
+  }
+  
+  .fund-image{
+
+    width: 100%; 
+    height: 210px;
+    text-align: left;  
+    object-fit: cover; 
+    padding: 10px 10px 10px 0px;
+  }
+
+  .accordion .container.active .content {
+    height: 100%;
+    margin-top: 10px;
+  }
+
+  .faq-container{
+    width: 100% !important;
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion .container.active .label::before {
+    content: '-';
+    font-size: 30px;
+  }
+
+  .footer-img{
+    
+    opacity: 1;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .footer-img-title{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+  }
+  .footer-img-text{
+      margin-left: 100px;
+      color: #fff;
+      font-size: 40px;
+      text-align: left;
+ 
+  }
+
+  .play-icon{
+  padding-left: 25% !important;
+  height: 300px;
+  }
+
+  .seperator{
+    border-top: 3px solid #33368E;
+    width: 100%;
+  }
+
+  .blog-wrapper {
+    padding-right: 15px;
+}
+
+
+.blog-item.blog-single {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.blog-item {
+  display: block;
+  margin-bottom: 40px;
+  background: #FFF;
+  overflow: hidden;
+  border-bottom: 1px solid #E3E3E3;
+  padding: 0 0 30px;
+}
+
+  .blog-media{
+    position: relative;
+    margin: 0 0 25px;
+  }
+
+  .content-wrapper {
+    padding: 60px 0;
+}
+
+.clear {
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog-media .img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul.sidebar-post {
+  margin-top: 15px;
+}
+
+ul.sidebar-post li .image {
+  width: 80px;
+  float: left;
+  margin-top: 5px;
+}
+ul.sidebar-post li .content {
+  margin-left: 90px;
+}
+.sidebar-module {
+  padding: 0 0 30px;
+}
+
+.sidebar-title {
+  color: #33368E;
+  margin-top: 0;
+}
+
+  .blog-media img{
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+
+  .blog-item {
+    display: block;
+    margin-bottom: 40px;
+    background: #FFF;
+    overflow: hidden;
+    border-bottom: 1px solid #E3E3E3;
+    padding: 0 0 30px;
+}
+  .sidebar-li a{
+    color:#33368E;
+  }
+
+  .header-left-search button.btn.btn-default {
+    background-color: #33368E !important;
+    border-color: #33368E !important;
+  }
+
+  .header-left-search input.form-control {
+    border-color: #33368E !important;
+  }
+
+  
+  .flex-container {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+  }
+
+  .center { 
+    -webkit-align-items: center; 
+    align-items: center; 
+  }
+
+  .flex-item {
+    text-align: center;
+  }
+
+  .column1 {
+    
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .cause-background{
+    background-color: #f5f5f5;
+    margin-top: 30px;
+  }
+
+  .donate1{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .amount{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+    text-align: left;
+  }
+
+  .flash-button{
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    animation: glowing 1300ms infinite;
+    margin-bottom: 15px;
+  }
+
+  @keyframes glowing {
+    0% {
+      background-color: #ff9118;
+      box-shadow: 0 0 5px #f3bf14;
+    }
+    50% {
+      background-color: #ff9118;
+      box-shadow: 0 0 20px #f3bf14;
+    }
+    100% {
+      background-color: #ff9118;
+      box-shadow: 0 0 5px #f3bf14;
+    }
+  }
+
+  .play-button{
+    color: #33368E;
+  }
+
+  .blog-detail img{
+    width: 100%;
+    margin: 15px 0px ;
+  }
+
+  .tag-cloud{
+    margin-top: 10px;
+  }
+.h{
+
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 2px;  
+   
+}
+
+.p{
+    font-family: 'Pacifico', cursive;
+}
+
+@media screen and (max-width: 750px){
+  .footer-img-title{
+    font-size: 25px;
+  }
+
+  .footer-img-text{
+    font-size: 20px;
+  }
+
+  .play-icon{
+    height: 250px;
+  }
+}
